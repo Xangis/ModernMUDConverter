@@ -1,5 +1,5 @@
 # Main executable file
-PROGRAM = ModernMUDConvertor
+PROGRAM = ModernMUDConverter
 
 # Object files
 OBJECTS = comm.o const.o db.o handler.o mem.o spec_mob.o string.o
