@@ -1,0 +1,184 @@
+---------------------------------------------------------------------
+NECRO NECROMANCER NECROMANCERS
+
+IMPORTANT NOTE: Necromancers are a SOLO class.  They are for experts
+                only.  Necromancers will have a very difficult time
+                in the game, and are not recommended for beginners.
+
+*** READ 'help necromancer disclaimer' ***
+
+Sub-Class of:  Magic-User
+
+Necromancers are the vilest of all magic-users, concerned with death
+and the undead.  They devote their lives to studying corpses, and
+the magic required to reanimate them.  
+
+Necromancer is a dangerous art, and shunned by most people.  The undead
+who are brought back to life hate the living above all else, and
+will attack any PC except the necromancer who raised them.  This makes
+it close to impossible for the necromancer to group with other people,
+since the pets he relies on for his power will attack anyone who
+enters the room.
+
+Necromancers are loners by nature, enjoying a solitary life.  The
+undead are horrid creatures, unwelcome in any civilized town.
+
+Allowable races:        Human, 
+
+***Races: removed Orc. Drow and Rakshasa get necromancers.
+
+
+Equipment usage:        Necromancers fall into the Magic-User
+                        classification of item restriction.  This
+                        means they have the smallest range of weapons
+                        that they can wield and a very small range of
+                        armor from which to choose.  They have almost
+                        no restrictions on what miscellaneous magical
+                        items they can use (wands, staffs, etc.)
+
+Necromancer Innates:    none
+
+See also:  MAGIC-USER, PRACTICE, SPELLCAST, NECROMANCER SPELLS, 
+           NECROMANCER SKILLS, NECROMANCER DISCLAIMER
+"NECROMANCER DISCLAIMER"
+
+Necromancers are currently a very experimental class.
+This means several things:
+
+1. Documentation may or may not exist for your various abilities. Deal with it.
+2. Any of your abilities may change at any time without any notice, up to and
+   including removal of the class without reimbursement. Once again, deal with
+   it.
+3. Any necromancer caught abusing any sort of bug, or being twinky, will be
+   dealt with much more harshly than any other player, to the point of terming
+   for the slightest offense.
+4. You are obligated to report any bugs related to necromancers and their pets
+   immediately upon discovering them. This should be done with either e-mail to
+   ski@idleminds.org,or a post on your guild board. Failure to do so falls
+   under #3.
+5. You are a solo class. Taking advantage of loopholes in the code to group
+   with others, be it for zoning, power leveling, or anything else (unless you
+   are not using any undead) also falls under #3.
+6. Due to the nature of necromancers, they are subject to very strict rules
+   regarding equipment. They should /always/ have good equipment on, as they
+   are perhaps the only class in the game capable of equipping themselves.
+   Gathering equipment takes precedence over /everything/, including doing
+   experience. 'Good equipment' means that if a character of equivalent level
+   killed you, he would not throw away your equipment as garbage. Yes, this
+   is arbitrary. Yes, it is unfair. As above: deal with it. You want the
+   power, you have to sweat for it.
+On their own, necromancers are by far the most powerful class on the MUD. With
+that power comes responsibility. You have been warned.
+
+One final thing: Necromancers are definitely NOT a newbie class.
+
+***Leave undead agro. Note spell Pacify Undead.
+
+"NECROMANCER SKILLS"
+
+[Level 1]
+        1h Bludgeon
+        2h Bludgeon
+        Aerial Casting
+        Aerial Combat
+        Bandage
+        Barehanded Fighting
+        Carve
+        Dodge
+        First Aid
+        Meditate
+        Mount
+        Quick Chant
+        Scribe
+        Sorcerous Spell Knowledge
+        Swim
+        Throwing Weapon
+
+"NECROMANCER SPELLS"
+
+[1st Circle]
+        Detect Magic
+        Magic Missile
+        Minor Creation
+        Preserve
+[2nd Circle]
+        Chill Touch
+        Protection from Cold
+        Vampiric Touch
+        Animate Blood - Uses caster's own blood (dealing 50% of mxhit
+                dam), and gives caster a level 10 pet that eventually
+                'dries up'
+[3rd Circle]
+        Concealment
+        Dispel Magic
+        Embalm
+        Raise Skeleton - level 15, class none.
+        Decompose - opposite of preserve. May want to make it NPC corpse
+                only.
+[4th Circle]
+        Raise Zombie - level 20 warrior. tries to bash and rescue.
+        Sleep
+        Wither
+[5th Circle]
+        Wilting - Does dam to plant mobs and water mobs, and water
+                elementalists
+        Coldshield
+        Energy Drain
+        Heal Undead
+        Ice Storm
+        Levitate
+        Teleport
+[6th Circle]
+        Cone of Cold
+        Protect Undead
+        Raise Spectre - dual wielding assassin, 'fades from mortal
+                viewing' wraithform (invis) proc
+        Sense Followers
+[7th Circle]
+        Dimension Door
+        Haste
+        Raise Wraith - level 31 sorc (fist).
+        Reveal True Name
+[8th Circle]
+        Dispel Invisible
+        Improved Invisibility
+        Raise Vampire - kickass warrior tank, bashes, rescues, doesn't
+                guard
+[9th Circle]
+        Detect Invisibility
+        Fly
+        Raise Lich - one sorc circle 8, coldshields. one sorc circle 9, 
+                fireshields.
+        Mute Undead - Your undead will not spell themselves up while this
+                spell is active.
+        Command Undead - Negates Mute Undead
+[10th Circle]
+        Cloak of Fear
+        Raise Dracolich - see Dracolich notes below.
+        Vampiric Trance
+        Pacify Undead - Makes zombies and skeletons not agro other players
+[11th Circle]
+        Wall of Bones
+        Knock
+        Fickle Finger of Death - will either power word kill target or
+                your undead.
+        *Wraithform - Upcoming Quest spell.
+        *Analyze Object - Upcoming Quest spell, identify/reveal true.
+        *Negate Hex - Upcoming Quest Spell, remove curse.
+
+Dracoliches:
+Dracoliches can rescue, tail sweep, breathe. tail sweep would kill the
+necro if he commanded it, but they will do it when they are alone in the
+room without the necromancer. A Necro will get either Green/Blue/Black/Red
+randomly, and at 51, it is possible to get the rare White draco in that
+random mix. the draco destroys the corpse it uses completely, along with
+the equipment on it.
+
+        Green           level 49        breathes poison/para
+        Blue            Level 50        breathes cold
+        Black           level 51        breathes shadow
+        Red             Level 52        Breathes Fire
+
+        White           Level 53        Breathes Ice
+----------------------------------------------------------------------
+
