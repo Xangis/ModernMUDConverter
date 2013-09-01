@@ -4827,7 +4827,8 @@ void load_bast_objects(FILE * fp)
 			area_last->hi_o_vnum = vnum;
 
 		pObjIndex->area = area_last;
-		pObjIndex->name = StripZeroPrefix( fread_string(fp, &stat) );
+		pObjIndex->name = fread_string(fp, &stat);
+        pObjIndex->name = StripZeroPrefix(pObjIndex->name);
 		pObjIndex->short_descr = fread_string(fp, &stat);
 		pObjIndex->description = fread_string(fp, &stat);
 		/* Action description */ fread_string(fp, &stat);

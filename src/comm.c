@@ -52,8 +52,12 @@ int main( int argc, char **argv )
     log_string( log_buf );
     game_loop_unix( );
 #endif
+#ifdef WIN32
+    // Hang the program - make the user click "X" to close it on Windows
+    // since this may have been run from an explorer shell.
     log_string( "Areas have been converted.  Close application now." );
     while(1);
+#endif
 
     /*
      * That's all, folks.

@@ -9312,7 +9312,6 @@ struct	spell_type	spells_table	[MAX_SPELL]	=
 	MANA_FIRE,
 	TRUE
     },
-    
 };
 
 struct	song_type	songs_table	[MAX_SONG]	=
@@ -9775,7 +9774,7 @@ const             char *          lang_table      [MAX_LANG]    =
     "barbarian"   /* 29 */
 };
 
-#if !defined( ultrix ) && !defined( apollo )
+#ifndef linux
 #include <memory.h>
 #endif
 

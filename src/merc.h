@@ -1451,21 +1451,19 @@ struct	spell_type
 
 struct	song_type
 {
-	char * fullname; /* Name of skill */
+	const char * fullname; /* Name of skill */
 	int spell_circle[ MAX_CLASS ]; /* Circle needed by class */
-	char * name; /* Name of skill */
-	int target; /* Legal targets */
-	bool cast_combat; /* Can you cast it in a fight?*/
+	const char * name; /* Name of skill */
 	int * pgsn; /* Pointer to associated gsn */
 	int min_mana; /* Minimum mana used */
 	int beats; /* Waiting time after use */
-	char * msg_damage; /* Damage message */
-	char * msg_damage_vict; /* Damage message to victim */
-	char * msg_damage_room; /* Damage message to room */
-	char * msg_damage_self; /* Damage message target self */
-	char * msg_damage_self_rm; /* Room dmg msg, self = target*/
-	char * msg_kill; /* Kill Message */
-	char * msg_off; /* Wear off message */
+	const char * msg_damage; /* Damage message */
+	const char * msg_damage_vict; /* Damage message to victim */
+	const char * msg_damage_room; /* Damage message to room */
+	const char * msg_damage_self; /* Damage message target self */
+	const char * msg_damage_self_rm; /* Room dmg msg, self = target*/
+	const char * msg_kill; /* Kill Message */
+	const char * msg_off; /* Wear off message */
 	int realms; /* Skill realm requirements
 	(Instrument required for bards) */
 	int mana_type; /* Mana type (for spells)
@@ -2184,6 +2182,7 @@ extern int top_mvscript;
 
 /* comm.c */
 const char* GetApplyName( int number );
+char *strrepl(char *orgstr, char *oldstr, char *newstr);
 
 /* const.c */
 const char * size_string( int size );
