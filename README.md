@@ -4,10 +4,15 @@ Basternae 2 / Magma to ModernMUD Zone Converter
 This program converts Basternae 2 and Magma MUD format zones to the ModernMUD
 XML zone format.
 
-It is configured much like an Envy-based MUD in that you edit the AREA.LST file
-in the /area directory to add the zones you want to convert and then run the
-executable.  The zones, typically with a ".are" file format, will be loaded
-and then written out to the ".xml" file format.
+It is a separate project due to the different licensing requirements. For the
+ModernMUD project, see here:
+
+https://github.com/Xangis/ModernMUD
+
+The ModernMUD Zone Converter is configured much like an Envy-based MUD in that
+you edit the AREA.LST file in the /area directory to add the zones you want to
+convert and then run the executable.  The zones, typically with a ".are" file
+format, will be loaded and then written out to the ".xml" file format.
 
 There is an executable, /src/ModernMUDConverter.exe included for Windows. For
 Linux, you will need GCC installed. Go into the /src folder and type "make". If
@@ -26,4 +31,12 @@ older versions of DikuEdit, you can use "convzone" utility in the Magma MUD
 codebase to convert those into Basternae 2 format. Those zones can then be used 
 either  with the Magma MUD engine, or loaded into the ModernMUD converter for use
 with ModernMUD. It has not been tested with (and may or may not work with) zones 
-created with recent versions of DurisEdit.
+created with recent versions of DurisEdit. For the Magma MUD codebase and
+convzone, check here:
+
+https://github.com/Xangis/magma
+
+I would like to add support for converting other zone types to the ModernMUD area
+format. If you have a zone that fails to convert using one of the supported zone
+types, or have a zone type that you would like to have support added for, please
+contact me at jchampion [at] zetacentauri {dot} com.

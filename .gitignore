@@ -15,3 +15,10 @@
 # Area files
 *.are
 *.are.xml
+
+# Visual Studio files
+*.suo
+*.sdf
+*.filters
+src/Debug
+src/Release
