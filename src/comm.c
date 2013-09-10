@@ -62,7 +62,7 @@ int main( int argc, char **argv )
     /*
      * That's all, folks.
      */
-    log_string( "Normal termination of program." );
+    log_string( "Normal termination of program. Hit enter to exit." );
 	getchar();
     exit( 0 );
     return 0;
