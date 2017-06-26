@@ -1236,7 +1236,9 @@ void game_loop_unix(  )
         fprintf( fp, "<JailRoom>%d</JailRoom>\n", area->jail );
         fprintf( fp, "<DefenderSquads>%d</DefenderSquads>\n", area->squads );
         fprintf( fp, "<Recall>%d</Recall>\n", area->recall );
-        fprintf( fp, "<JusticeType>none</JusticeType>\n", area->justice );
+        // TODO: Convert justice.
+        //fprintf( fp, "<JusticeType>%d</JusticeType>\n", area->justice );
+        fprintf( fp, "<JusticeType>none</JusticeType>\n" );
         fprintf( fp, "<Filename>%s</Filename>\n", filename );
         fprintf( fp, "<Builders>%s</Builders>\n", area->builders );
         fprintf( fp, "<Security>%d</Security>\n", area->security );
