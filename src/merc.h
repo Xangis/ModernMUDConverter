@@ -2186,6 +2186,7 @@ char *strrepl(char *orgstr, char *oldstr, char *newstr);
 
 /* const.c */
 const char * size_string( int size );
+void         load_classes( void );
 
 /* db.c */
 void	boot_db		args( ( void ) );
@@ -2226,6 +2227,7 @@ void	bugf		args( ( char *fmt, ... ) );
 void	temp_fread_string	args( ( FILE *fp, char *str ) );
 void	save_sysdata	args( ( void ) );
 int     class_convert   args( ( int c_class ) );
+int     duris_class_convert args( ( int c_class ) );
 
 /* handler.c */
 int     get_curr_race   args( ( CHAR_DATA *ch ) );
@@ -2239,6 +2241,7 @@ void    end_of_game     args( ( void ) );
 int	size_lookup	args( ( const char *size ) ); /* get size by name*/
 int     race_lookup     args( ( const char *race ) );
 int     race_key_lookup args( ( const char *race ) );
+void    set_cost        args( ( OBJ_INDEX_DATA *obj ) );
 
 /* interp.c */
 bool	is_number	args( ( char *arg ) );

@@ -2,6 +2,7 @@
 #include <sys/types.h>
 #include <stdio.h>
 #include <time.h>
+#include <string.h>
 #include "merc.h"
 
 /* 
